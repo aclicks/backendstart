@@ -2,6 +2,7 @@
 import express from "express";
 import * as dotenv from "dotenv";
 import userRoute from "./routes/user.routes.js";
+import connect from "./config/db.config.js";
 
 //habilitar o servidor a ter variáveis de ambiente
 dotenv.config();
